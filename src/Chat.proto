@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package ex1.protobuf;
+
+message Add {
+    required string proto = 1;
+    required string word = 2;
+}
+
+message Remove {
+    required string proto = 1;
+    required string word = 2;
+}
